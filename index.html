@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Walled Off</title>
+		<style type="text/css">
+			body{
+				background-color: #d9b3ff;
+			
+			}
+			img.logo{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			p{
+				display: : block;
+				margin-left: 20px;
+				font-size: 25px;
+			}
+			h2.cyan{
+				font-size: 30px;
+				color: cyan;
+			}
+			h2.magenta{
+				font-size: 30px;
+				color: magenta;
+			}
+			h1{
+				font-size: 45px;
+			}
+			div.something{
+				text-align: center;
+				font-family: Garamond;
+			}
+			.button{
+				border:	none;
+				padding: 30px 40px;
+				background-color: #003366;
+				color: #ffffff;
+				font-size: 30px;
+				font-family: Garamond;
+			}
+		</style>
+	</head>
+	<body>
+	<img class ="logo" src="WalledOffLogo2.png" width="450px" height="300px" alt="Logo">
+		<div class="something">
+			<h1>Instructions</h1>
+			<p>The instructions are simple:</p>
+			<p>Move around the board, block the other player using walls and avoid being surrounded<br/>
+			But be warned... Every 10 seconds the game field reduces in size. Don't get caught!</p>
+			<h1>Controls</h1>
+			<h2 class="cyan">Player 1 - Cyan</h2>
+			<p>Movement: WASD<br/>Wall: Space + WASD</p>
+			<h2 class="magenta">Player 2 - Magenta</h2>
+			<p>Movement: Arrow Keys<br/>Wall: Forward Slash( / ) + Arrow Keys</p>
+			<input id="button" class="button" type="button" value="PLAY" onclick="myFunction()"></input>
+		</div>
+		
+		<script type="text/javascript">
+			function myFunction(){
+				window.location="HWGame.html";
+			}
+		</script>
+	</body>
+</html>
